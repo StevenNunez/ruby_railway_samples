@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+
+package learn_ipc.events;
+
+message CohortCreated {
+  string user_uuid = 1;
+  string correlation_id = 2;
+  string uuid = 3;
+
+  message Data {
+    string cohort_uuid = 1;
+    string cohort_name = 2;
+    string campus_uuid = 3;
+    string market_uuid = 4;
+    string discipline_uuid = 5;
+    string modality_uuid = 6;
+    string pacing_option_uuid = 7;
+    string start_date = 8;
+    string end_date = 9;
+    string lms_cohort_uuid = 10;
+  }
+
+  map<string, string> context = 4;
+
+  Data data = 5;
+}

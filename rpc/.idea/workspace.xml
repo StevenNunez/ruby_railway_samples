@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49643c19-9a60-4df0-85b9-6bda74857569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/app/services/client/adder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app/responders/addition_responder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app/services/server/adder.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/lib/protobufs/ruby_sample1_pb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/lib/protobufs/ruby_sample2_pb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../commands_and_events/protobufs/time_issued.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rpc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rpc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby_sample1_pb.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby_sample2_pb.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JQLSearcherProjectManager">
     <selected>-1</selected>
@@ -265,7 +266,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582928889162</updated>
-      <workItem from="1582928901343" duration="3637000" />
+      <workItem from="1582928901343" duration="5552000" />
     </task>
     <servers />
   </component>
